@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 script {
-                    git branch: 'main', 
+                    git branch: 'master', 
                         url: 'https://github.com/sommygee/jenkins-git-integration.git'
                 }
             }
